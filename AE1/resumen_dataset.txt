@@ -1,0 +1,17 @@
+RESUMEN DEL DATASET TRANSFORMADO\n====================================\n\nCantidad de filas: 128\nCantidad de columnas: 6\n\nNOMBRES DE LAS COLUMNAS\n------------------------\nlargo_sepalo_cm, ancho_sepalo_cm, largo_petalo_cm, ancho_petalo_cm, especie, area_petalo_cm2\n\nTIPOS DE DATOS\n---------------\nlargo_sepalo_cm    float64
+ancho_sepalo_cm    float64
+largo_petalo_cm    float64
+ancho_petalo_cm    float64
+especie                str
+area_petalo_cm2    float64\n\nVALORES NULOS POR COLUMNA\n-------------------------\nlargo_sepalo_cm    0
+ancho_sepalo_cm    0
+largo_petalo_cm    0
+ancho_petalo_cm    0
+especie            0
+area_petalo_cm2    0\n\nESTADISTICAS DESCRIPTIVAS\n-------------------------\n                 count unique         top freq      mean       std   min   25%   50%      75%    max
+largo_sepalo_cm  128.0    NaN         NaN  NaN  6.041406   0.72704   5.0   5.5   6.0      6.5    7.9
+ancho_sepalo_cm  128.0    NaN         NaN  NaN  3.053906  0.451751   2.0   2.8   3.0    3.325    4.4
+largo_petalo_cm  128.0    NaN         NaN  NaN  4.121875  1.626887   1.2  3.45   4.5    5.225    6.9
+ancho_petalo_cm  128.0    NaN         NaN  NaN  1.353906  0.704195   0.1   1.0   1.4      1.9    2.5
+especie            128      3  versicolor   49       NaN       NaN   NaN   NaN   NaN      NaN    NaN
+area_petalo_cm2  128.0    NaN         NaN  NaN  6.661172  4.519295  0.15  3.45  6.65  10.0725  15.87

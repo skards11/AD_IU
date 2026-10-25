@@ -45,7 +45,7 @@ class GeneradorResumenTXT:
             "",
             "6. CANTIDAD DE REGISTROS PROCESADOS",
             f"Registros CSV: {self.manejador_csv.cantidad_registros}",
-            f"Registros JSON: {self.manejador_json.cantidad_registros}",
+            f"Registros JSON: {self.manejador_json.registros_importados}",
             "",
             "Nota: las URL deben corresponder a los archivos descargados manualmente desde Hugging Face.",
             ""

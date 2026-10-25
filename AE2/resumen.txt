@@ -1,39 +1,31 @@
-RESUMEN DE EJECUCIÓN - AE2: MANEJO DE ARCHIVOS CSV, JSON Y TXT
-==============================================================
-Fecha de generación: 2026-10-18 09:42:57
+RESUMEN DE MANEJO DE ARCHIVOS CSV, JSON Y TXT
+================================================
+Fecha de generación: 2026-10-25 15:24:19
 
-1. URL DE ORIGEN (Hugging Face)
--------------------------------
-CSV: https://huggingface.co/datasets/scikit-learn/iris/blob/main/Iris.csv
-JSON: https://huggingface.co/datasets/PhdDz/Paper_1_BioASQ-dataset/blob/main/train.json
+1. ORIGEN DE LOS DATOS
+URL de origen CSV: https://huggingface.co/datasets/scikit-learn/iris/blob/main/Iris.csv
+URL de origen JSON: https://huggingface.co/datasets/PhdDz/Paper_1_BioASQ-dataset/blob/main/train.json
 
-2. ManejadorCSV
----------------
-Archivo importado: datos/originales/Iris.csv
-Métodos utilizados: importar(), actualizar_valor(), agregar_registro(), guardar()
-Registros importados: 150
-Modificaciones realizadas:
-  - Actualizar valor: columna 'Species', 'Iris-setosa' -> 'setosa' (50 registros)
-  - Agregar registro: ['151', '5.0', '3.4', '1.5', '0.2', 'setosa']
-Registros guardados: 151
-Archivo nuevo guardado en: datos/modificados/iris_modificado.csv
+2. ARCHIVOS PROCESADOS
+CSV original: datos/datos_originales.csv
+CSV modificado guardado en: datos/datos_modificados.csv
+JSON original: datos/datos_originales.json
+JSON modificado guardado en: datos/datos_modificados.json
 
-3. ManejadorJSON
-----------------
-Archivo importado: datos/originales/train.json
-Formato del original: JSON Lines (un objeto por línea)
-Métodos utilizados: importar(), actualizar_valor(), eliminar_registro(), guardar()
-Registros importados: 1017
-Modificaciones realizadas:
-  - Actualizar valor: campo 'label', 'yes' -> 'sí' (769 registros)
-  - Eliminar registro: id = 'converted_4560' (1 registros)
-Registros guardados: 1016
-Archivo nuevo guardado en: datos/modificados/bioasq_modificado.json
+3. CLASES Y MÉTODOS UTILIZADOS
+ManejadorCSV: importar(), actualizar_valor(), guardar().
+ManejadorJSON: importar(), actualizar_valor(), guardar().
+GeneradorResumenTXT: generar().
+Módulos estándar: csv, json, pathlib, datetime.
 
-4. TOTALES
-----------
-Registros importados (CSV + JSON): 1167
-Registros guardados (CSV + JSON): 1167
-Modificaciones aplicadas: 4
-Clases utilizadas: ManejadorCSV, ManejadorJSON, GeneradorResumenTXT
-Método de esta clase: generar()
+4. MODIFICACIONES REALIZADAS EN CSV
+No se registraron modificaciones.
+
+5. MODIFICACIONES REALIZADAS EN JSON
+No se registraron modificaciones.
+
+6. CANTIDAD DE REGISTROS PROCESADOS
+Registros CSV: 150
+Registros JSON: 1017
+
+Nota: las URL deben corresponder a los archivos descargados manualmente desde Hugging Face.
