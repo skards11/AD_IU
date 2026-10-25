@@ -42,4 +42,3 @@ Daniela Cataño Hernández · John Freddy Ocampo Ochoa · Óscar Alonso De La Pa
    ```
 (Apoyo para creación del codigo con Claude Code)
 
-Solo se usan módulos estándar de Python (`csv`, `json`, `io`, `datetime`); no se requiere conexión a Internet.
