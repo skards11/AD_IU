@@ -1,4 +1,4 @@
-# Actividad S10 – Carga y creación de dataset
+# Actividad S10 – Carga y creación de dataset 
 
 ## Contenido
 - `dataset_loader.py`: clase que carga un dataset de Hugging Face y lo convierte en DataFrame.
@@ -31,6 +31,6 @@ Se utiliza `scikit-learn/iris`, como ejemplo sugerido en las instrucciones de la
 4. Filtrar filas que tengan un valor presente en la primera columna.
 
 El notebook muestra los resultados de cada transformación y genera el resumen después de aplicarlas.
-
+(apoyo para creación del codigo con Claude Code)
 ## GitHub
 Publica los archivos en un repositorio y registra avances mediante commits descriptivos. Antes de entregar, verifica que el notebook se ejecute de principio a fin y que el TXT generado esté incluido en el repositorio.
