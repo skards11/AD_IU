@@ -33,16 +33,13 @@ Daniela Cataño Hernández · John Freddy Ocampo Ochoa · Óscar Alonso De La Pa
 | JSON | `actualizar_valor()` | `label`: `yes` → `sí` | 769 |
 | JSON | `eliminar_registro()` | Se elimina `id` = `converted_4560` | 1017 → 1016 |
 
-## Pasos de ejecución
+## Pasos antes de ejecución
 
-1. Clonar el repositorio y entrar a la carpeta `AE2`.
-2. Crear y activar un entorno virtual:
    ```bash
    python -m venv .venv
-   .venv\Scripts\activate        # Windows  (Linux/Mac: source .venv/bin/activate)
+   .venv\Scripts\activate  
    pip install -r requirements.txt
    ```
-3. Abrir `actividad_ae2.ipynb` con la carpeta `AE2` como directorio de trabajo, seleccionar el kernel de `.venv` y ejecutar **Restart → Run All**.
-4. Revisar `datos/modificados/` y `resumen.txt`.
+(Apoyo para creación del codigo con Claude Code)
 
 Solo se usan módulos estándar de Python (`csv`, `json`, `io`, `datetime`); no se requiere conexión a Internet.
